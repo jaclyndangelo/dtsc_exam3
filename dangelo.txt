@@ -12,7 +12,8 @@ changes back to the original creator.
 
 7. Some of the tables dont have primary keys or foreign keys and some of the tables dont have the columns properly labeled
 they should all have what kind of character they are such as varchar, int, numberic.
-8. In the location table there is not primary key connecting the students table or the course table. So if you wanted to run a SQL query to see which students had classes in what builiding you wouldnt have anything to connect them on.
+8. In the location table there is not primary key connecting the students table or the course table. So if you wanted to run 
+a SQL query to see which students had classes in what builiding you wouldnt have anything to connect them on.
 9. CREATE TABLE gradutaion (
     student_id int UNIQUE FOREIGN KEY
     graduation_year int
