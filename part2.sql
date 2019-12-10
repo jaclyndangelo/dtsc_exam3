@@ -26,3 +26,10 @@ CREATE TABLE location (
     building varchar
     room integer
 );
+
+CREATE TABLE gradutaion (
+    student_id int UNIQUE FOREIGN KEY
+    graduation_year int
+    gpa numberic
+    courses_completed int
+);
