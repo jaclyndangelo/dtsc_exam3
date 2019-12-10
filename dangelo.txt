@@ -1,12 +1,11 @@
 1. Version control is 
-2. Git is the actual coding that you use to run with github. Github is a website that people can use to create different repositories and databases. They can share and use other poeples repostitories by forking or cloing. 
+its important because 
+2. Git is the actual coding that you use to run with github. Github is a website that people can use to create different repositories and databases. They can share and use other peoples repostitories by forking or cloing. 
 3. The git workflow is that you create a file and the you edit it, then you add it to git hub, then you commit it to 
 github, then you create the repository on Github and push all your work onto that repository.
 4. You use a branch when you dont want to make any changes to the original code you just want to add onto it. You would also 
 use branching when there are alot of people working on one project. 
-5. Forking copies the repository and you can make edits and changes to it then make a pull request to change things to that 
-orignal person who owns the repsoitory. Cloning it makes a copy of everything and you dont make any pull requests or send any
-changes back to the original creator. 
+5. Forking copies the repository and you can make edits and changes to it then make a pull request to ask the creator to change things they orignally had on the repsoitory. Cloning it makes a copy of everything and you dont make any pull requests or send any changes back to the original creator. 
 6. You would use git remote -v because 
 
 
