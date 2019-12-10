@@ -1,0 +1,50 @@
+1. Version control is 
+2. Git is the actual coding that you use to run with github. Github is a website that creates different repositories 
+and databases.
+3. The git workflow is that you create a file and the you edit it, then you add it to git hub, then you commit it to 
+github, then you create the repository on Github and push all your work onto that repository.
+4. You use a branch when you dont want to make any changes to the original code you just want to add onto it.
+5. Forking copies the repository and you can make edits and changes to it then make a pull request to change things to that 
+orignal person who owns the repsoitory. Cloning it makes a copy of everything and you dont make any pull requests or send any
+changes back to the original creator. 
+6. 
+
+
+7. Some of the tables dont have primary keys or foreign keys and some of the tables dont have the columns properly labeled
+they should all have what kind of character they are such as varchar, int, numberic.
+8. In the location table there is not primary key connecting the students table or the course table.
+9. CREATE TABLE gradutaion (
+    student_id int UNIQUE FOREIGN KEY
+    graduation_year int
+    gpa numberic
+    courses_completed int
+);
+
+10. 
+SELECT *
+FROM customer;
+
+SELECT LastName, FirstName, Address
+FROM Employee;
+
+SELECT Track.Name, Album.title
+FROM Track
+LEFT JOIN Album
+ON Track.AlbumId = Album.AlbumId;
+
+SELECT t.Name, a.Title, g.Name
+FROM Track as t
+LEFT JOIN Album as a
+ON t.AlbumId = a.AlbumId
+LEFT JOIN genre as g
+ON t.genreId = g.genreId
+WHERE Genre.Name = 'Punk';
+
+11. 
+SELECT t.composer, a.title, r.Name
+FROM Track as t
+JOIN Artist as a
+ON t.albumid = a.albumid
+JOIN artist as r
+ON r.artistId = a.artistId
+WHERE r.name = 'Insane Clown Posse'
